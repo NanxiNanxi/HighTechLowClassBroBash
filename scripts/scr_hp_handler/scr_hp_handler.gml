@@ -114,7 +114,7 @@ if(global.minute =2){
 	}
 	
 	draw_set_font(fnt_ending)
-	draw_text_color(room_width/2-200,room_height/2-100," Time is Up! You Suck!",c_red,c_red,c_red,c_red,1)
+	draw_text_color(room_width/2-200,room_height/2-100," Time is Up! You Lose!",c_red,c_red,c_red,c_red,1)
 	draw_text_color(room_width/2-250,room_height/2+300,"Press start to continue",c_red,c_red,c_red,c_red,1)
 	
 	

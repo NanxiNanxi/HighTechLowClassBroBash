@@ -43,11 +43,11 @@ if p1_ready and p2_ready {
 		
 		audio_play_sound(bgm_game_start,1000,false);
 	}
-	if(max(keyboard_check_pressed(vk_escape),0,gamepad_button_check_pressed(0,gp_face2))) room_goto(rm_main_menu);
+	//if(max(keyboard_check_pressed(vk_escape),0,gamepad_button_check_pressed(0,gp_face2))) room_goto(rm_main_menu);
 
 }
 
-
+if(max(keyboard_check_pressed(vk_escape),0,gamepad_button_check_pressed(0,gp_face2))) room_goto(rm_main_menu);
 var name1 = (p1_index==0)?"Mikey":"Gavein";
 var name2 = (p2_index==0)?"Mikey":"Gavein";
 draw_sprite(images[p1_index],0,width/2-100,room_height/2);
